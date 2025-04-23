@@ -1,24 +1,24 @@
 <template>
-    <div class="flex text-3xl md:text-7xl gap-1 md:gap-4">
-        <div class="w-16 md:w-24 flex flex-col items-center">
+    <div class="px-2 flex text-3xl md:text-7xl gap-1 md:gap-4 text-purple-800">
+        <div class="p-2 w-14 md:w-24 flex flex-col items-center bg-white/50 rounded-lg">
             <div class="font-bold">{{ months }}</div>
-            <div class="text-lg md:text-2xl">bulan</div>
+            <div class="text-sm md:text-2xl font-medium">bulan</div>
         </div>
-        <div class="w-16 md:w-24 flex flex-col items-center">
+        <div class="p-2 w-14 md:w-24 flex flex-col items-center bg-white/50 rounded-lg">
             <div class="font-bold">{{ days }}</div>
-            <div class="text-lg md:text-2xl">hari</div>
+            <div class="text-sm md:text-2xl font-medium">hari</div>
         </div>
-        <div class="w-16 md:w-24 flex flex-col items-center">
+        <div class="p-2 w-14 md:w-24 flex flex-col items-center bg-white/50 rounded-lg">
             <div class="font-bold">{{ hours }}</div>
-            <div class="text-lg md:text-2xl">jam</div>
+            <div class="text-sm md:text-2xl font-medium">jam</div>
         </div>
-        <div class="w-16 md:w-24 flex flex-col items-center">
+        <div class="p-2 w-14 md:w-24 flex flex-col items-center bg-white/50 rounded-lg">
             <div class="font-bold">{{ minutes }}</div>
-            <div class="text-lg md:text-2xl">minit</div>
+            <div class="text-sm md:text-2xl font-medium">minit</div>
         </div>
-        <div class="w-16 md:w-24 flex flex-col items-center">
+        <div class="p-2 w-14 md:w-24 flex flex-col items-center bg-white/50 rounded-lg">
             <div class="font-bold">{{ seconds }}</div>
-            <div class="text-lg md:text-2xl">saat</div>
+            <div class="text-sm md:text-2xl font-medium">saat</div>
         </div>
     </div>
 </template>
